@@ -49,9 +49,7 @@
             "name":"",
             "version":"1.0.1",
             "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20201013_f0953d8d130df56f/YuanShen_1.0.1.zip",
-            "size":"27380416512",
-            "md5":"9F0E001B07BC45F5590190B9FAC942D4",
-            "entry":"YuanShen.exe"
+            "md5":"9F0E001B07BC45F5590190B9FAC942D4"
         },
         {
             "name":"",
