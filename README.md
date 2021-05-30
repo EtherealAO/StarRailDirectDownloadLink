@@ -87,44 +87,6 @@
             "version":"1.5.0",
             "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210428_4f4c4896195a34be/YuanShen_1.5.0.zip",
             "md5":"83E9034FF0E4AFD2EB212E885990AF7B"
-        },
-        {
-            "name":"",
-            "version":"1.5.1",
-            "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210430_ecaaf3c411f5f79f/YuanShen_1.5.1.zip",
-            "size":"27380416512",
-            "md5":"19C6C706F35A06744896D756B0766AB8",
-            "entry":"YuanShen.exe",
-            "voice_packs":[
-                {
-                    "language":"zh-cn",
-                    "name":"Audio_Chinese_1.5.1.zip",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210430_ecaaf3c411f5f79f/Audio_Chinese_1.5.1.zip",
-                    "size":"5905580032",
-                    "md5":"F9329043CBD673D0BA3A4F982047EF5A"
-                },
-                {
-                    "language":"en-us",
-                    "name":"Audio_English(US)_1.5.1.zip",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210430_ecaaf3c411f5f79f/Audio_English(US)_1.5.1.zip",
-                    "size":"6442450944",
-                    "md5":"9E2F8CC38925D69A25B602CD5EE67A00"
-                },
-                {
-                    "language":"ja-jp",
-                    "name":"Audio_Japanese_1.5.1.zip",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210430_ecaaf3c411f5f79f/Audio_Japanese_1.5.1.zip",
-                    "size":"6657199308",
-                    "md5":"75B99865DC961E41AE4256E781F47B34"
-                },
-                {
-                    "language":"ko-kr",
-                    "name":"Audio_Korean_1.5.1.zip",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210430_ecaaf3c411f5f79f/Audio_Korean_1.5.1.zip",
-                    "size":"5583457484",
-                    "md5":"00285C3078007FE88C889807154955D6"
-                }
-            ]
         }
     ]
 }
