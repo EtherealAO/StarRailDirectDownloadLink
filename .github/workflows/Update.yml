@@ -21,6 +21,7 @@ jobs:
         python GenshinDirectDownloadLink.py
     - name: Commit Files
       run: |
+        echo `date`>update
         git config --global user.email "1980794050@qq.com"
         git config --global user.name "cloudskytian"
         git commit -m "update" -a || exit 0
