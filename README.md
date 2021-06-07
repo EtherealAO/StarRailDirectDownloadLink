@@ -1,5 +1,6 @@
 ```
 {
+    "pre_download_game":{},
     "latest":{
         "name":"",
         "version":"1.5.1",
