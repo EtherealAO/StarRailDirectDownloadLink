@@ -23,8 +23,8 @@ jobs:
       run: |
         echo `date`>update
         git add update
-        git config --global user.email secrets.USER_EMAIL
-        git config --global user.name secrets.USER_NAME
+        git config --global user.email ${{secrets.USER_EMAIL}}
+        git config --global user.name ${{secrets.USER_NAME}}
         git commit -m "update" -a || exit 0
     - name: Push Changes
       uses: ad-m/github-push-action@master
