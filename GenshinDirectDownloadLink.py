@@ -36,6 +36,7 @@ def merge_genshin_json(local_json, online_json):
 
 
 def get_genshin_json():
+    print('try to get genshin json')
     genshin_url = 'https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18'
     online_json = get_online_json(genshin_url)
     local_path = 'README.md'
