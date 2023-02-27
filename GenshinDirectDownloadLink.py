@@ -17,7 +17,7 @@ if __name__ == '__main__':
                 try:
                     stringContent = str(requests.get(genshin_url).content, 'utf-8')
                     if stringContent != None and stringContent != '':
-                        retry_times = 5
+                        retry_times = 10
                 except:
                     retry_times = retry_times + 1
                     print('retry times:{}')
