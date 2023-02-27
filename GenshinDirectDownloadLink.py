@@ -7,14 +7,16 @@ if __name__ == "__main__":
     with open('README.md', 'a+') as readme:
         readme.seek(0)
         sys.stdout = readme
-        try_flag = True
-        while (try_flag):
-            stringContent = str(
-                requests.get(
-                    'https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18').
-                content, 'utf-8')
-            if stringContent != None and stringContent != '':
-                try_flag = False
+        max_retry_times = 5
+        retry_times = 0
+        while (retry_times < max_retry_times):
+            try:
+                stringContent = str(
+                    requests.get('https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18').content, 'utf-8')
+                if stringContent != None and stringContent != '':
+                    retry_times = 5
+            except:
+                continue
         jsonFile = json.loads(readme.read().strip().strip('```'), object_pairs_hook=collections.OrderedDict)
         changed = False
         pre_download_game = None
