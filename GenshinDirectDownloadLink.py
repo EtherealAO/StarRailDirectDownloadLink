@@ -6,7 +6,7 @@ import requests
 import sys
 import traceback
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     try:
         genshin_url = 'https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18'
         with open('README.md', 'a+') as readme:
@@ -30,7 +30,7 @@ if __name__ == "__main__":
             try:
                 pre_download_game = json.loads(stringContent)['data']['pre_download_game']
             except:
-                pre_download_game = ""
+                pre_download_game = ''
             if jsonFile['pre_download_game'] != pre_download_game:
                 jsonFile['pre_download_game'] = pre_download_game
                 changed = True
