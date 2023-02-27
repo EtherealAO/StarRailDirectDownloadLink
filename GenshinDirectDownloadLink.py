@@ -16,7 +16,7 @@ if __name__ == "__main__":
                 if stringContent != None and stringContent != '':
                     retry_times = 5
             except:
-                continue
+                retry_times = retry_times + 1
         jsonFile = json.loads(readme.read().strip().strip('```'), object_pairs_hook=collections.OrderedDict)
         changed = False
         pre_download_game = None
