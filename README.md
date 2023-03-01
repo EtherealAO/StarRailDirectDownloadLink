@@ -1,226 +1,71 @@
 ```
 {
-    "pre_download_game":{
-        "latest":{
-            "name":"",
-            "version":"3.5.0",
-            "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip",
-            "size":"95917105480",
-            "md5":"11f9a0d145f5d9b48e16ce6365797fd0",
-            "entry":"YuanShen.exe",
-            "voice_packs":[
-                {
-                    "language":"zh-cn",
-                    "name":"",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Chinese_3.5.0.zip",
-                    "size":"18135247750",
-                    "md5":"72f11e238fb121676e1d7763fc92f934",
-                    "package_size":"9062380995"
-                },
-                {
-                    "language":"en-us",
-                    "name":"",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_English(US)_3.5.0.zip",
-                    "size":"20712228128",
-                    "md5":"846214c62cbfc3d832cfd0f740c45956",
-                    "package_size":"10350871184"
-                },
-                {
-                    "language":"ja-jp",
-                    "name":"",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Japanese_3.5.0.zip",
-                    "size":"23289208506",
-                    "md5":"0db0c92557bf4601bc93e564a22fa38f",
-                    "package_size":"11639361373"
-                },
-                {
-                    "language":"ko-kr",
-                    "name":"",
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Korean_3.5.0.zip",
-                    "size":"17727225856",
-                    "md5":"a333211d84effc592f34f81335265555",
-                    "package_size":"8858370048"
-                }
-            ],
-            "decompressed_path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/ScatteredFiles",
-            "segments":[
-                {
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.001",
-                    "md5":"0698a108cc1e2e6499b7332413ef8e4d"
-                },
-                {
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.002",
-                    "md5":"d57010e12344277390536de067e10caf"
-                },
-                {
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.003",
-                    "md5":"540e2a579f5fb66ec98a2b98db752065"
-                },
-                {
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.004",
-                    "md5":"dce694e4057b5857c8f2b0d30c4d8b58"
-                },
-                {
-                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.005",
-                    "md5":"d8383a9a7ca41c6ce32dc74fa6e7a13f"
-                }
-            ],
-            "package_size":"47953309860"
-        },
-        "diffs":[
-            {
-                "name":"game_3.4.0_3.5.0_hdiff_RBj0E9Uo1POz7Yhv.zip",
-                "version":"3.4.0",
-                "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/game_3.4.0_3.5.0_hdiff_RBj0E9Uo1POz7Yhv.zip",
-                "size":"13124101472",
-                "md5":"1E83F87C5442A0295B723B7792D6B51B",
-                "is_recommended_update":false,
-                "voice_packs":[
-                    {
-                        "language":"zh-cn",
-                        "name":"zh-cn_3.4.0_3.5.0_hdiff_w4jItV7RJfQv3hgk.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/zh-cn_3.4.0_3.5.0_hdiff_w4jItV7RJfQv3hgk.zip",
-                        "size":"1040984129",
-                        "md5":"F412D355608E37AE39FA82C2E559371E",
-                        "package_size":"476370781"
-                    },
-                    {
-                        "language":"en-us",
-                        "name":"en-us_3.4.0_3.5.0_hdiff_nre0EBZXk6h8FLqW.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/en-us_3.4.0_3.5.0_hdiff_nre0EBZXk6h8FLqW.zip",
-                        "size":"1261138530",
-                        "md5":"11E12A906C92146D5B42F86B41E2F0F1",
-                        "package_size":"599265635"
-                    },
-                    {
-                        "language":"ja-jp",
-                        "name":"ja-jp_3.4.0_3.5.0_hdiff_RlTo2m4S6jdhJNrE.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/ja-jp_3.4.0_3.5.0_hdiff_RlTo2m4S6jdhJNrE.zip",
-                        "size":"1284581265",
-                        "md5":"8859D71F34B2ACDB7D1B68584A297E40",
-                        "package_size":"569714018"
-                    },
-                    {
-                        "language":"ko-kr",
-                        "name":"ko-kr_3.4.0_3.5.0_hdiff_7sHCG30hR4VjuplP.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/ko-kr_3.4.0_3.5.0_hdiff_7sHCG30hR4VjuplP.zip",
-                        "size":"981816231",
-                        "md5":"9FC0CEF6828CE2EA9C3A60521C1E107C",
-                        "package_size":"455769609"
-                    }
-                ],
-                "package_size":"6384109680"
-            },
-            {
-                "name":"game_3.3.0_3.5.0_hdiff_NdjQTeCvMbqKpJPU.zip",
-                "version":"3.3.0",
-                "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/game_3.3.0_3.5.0_hdiff_NdjQTeCvMbqKpJPU.zip",
-                "size":"16820109308",
-                "md5":"5542ED38164E623AED5E3DEA246F7544",
-                "is_recommended_update":false,
-                "voice_packs":[
-                    {
-                        "language":"zh-cn",
-                        "name":"zh-cn_3.3.0_3.5.0_hdiff_jzV0to5Q8y7E3FSu.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/zh-cn_3.3.0_3.5.0_hdiff_jzV0to5Q8y7E3FSu.zip",
-                        "size":"1877353856",
-                        "md5":"CDB9CC6870B625DFB150A1DE404A7561",
-                        "package_size":"868771221"
-                    },
-                    {
-                        "language":"en-us",
-                        "name":"en-us_3.3.0_3.5.0_hdiff_kGLoDHenSgAJXIMi.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/en-us_3.3.0_3.5.0_hdiff_kGLoDHenSgAJXIMi.zip",
-                        "size":"2257477254",
-                        "md5":"1E3C9B22C9B10579EC6C52EB0F67959D",
-                        "package_size":"1076496468"
-                    },
-                    {
-                        "language":"ja-jp",
-                        "name":"ja-jp_3.3.0_3.5.0_hdiff_YwCEOIdHamGMU5QL.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/ja-jp_3.3.0_3.5.0_hdiff_YwCEOIdHamGMU5QL.zip",
-                        "size":"2305501050",
-                        "md5":"F170EC24E77EEA5D8F45A2F89A345D0A",
-                        "package_size":"1042521982"
-                    },
-                    {
-                        "language":"ko-kr",
-                        "name":"ko-kr_3.3.0_3.5.0_hdiff_IR2VGLNCd5eEpo7K.zip",
-                        "path":"https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/18/ko-kr_3.3.0_3.5.0_hdiff_IR2VGLNCd5eEpo7K.zip",
-                        "size":"1760741382",
-                        "md5":"99E684C156079F249BFDCAED51F7A322",
-                        "package_size":"826444759"
-                    }
-                ],
-                "package_size":"8220600304"
-            }
-        ]
-    },
+    "pre_download_game":null,
     "latest":{
         "name":"",
-        "version":"3.4.0",
-        "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip",
-        "size":"95809731298",
-        "md5":"a04c6e422656a44924bad95f8648cf9e",
+        "version":"3.5.0",
+        "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip",
+        "size":"95917105480",
+        "md5":"11f9a0d145f5d9b48e16ce6365797fd0",
         "entry":"YuanShen.exe",
         "voice_packs":[
             {
                 "language":"zh-cn",
                 "name":"",
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Chinese_3.4.0.zip",
-                "size":"16997081416",
-                "md5":"56dce864d6eb4780fd2f055263b1ca39",
-                "package_size":"8493297828"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Chinese_3.5.0.zip",
+                "size":"18135247750",
+                "md5":"72f11e238fb121676e1d7763fc92f934",
+                "package_size":"9062380995"
             },
             {
                 "language":"en-us",
                 "name":"",
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_English(US)_3.4.0.zip",
-                "size":"19423737938",
-                "md5":"06ca7f33819fbe54f84a3327a927e92d",
-                "package_size":"9706626089"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_English(US)_3.5.0.zip",
+                "size":"20712228128",
+                "md5":"846214c62cbfc3d832cfd0f740c45956",
+                "package_size":"10350871184"
             },
             {
                 "language":"ja-jp",
                 "name":"",
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Japanese_3.4.0.zip",
-                "size":"21764495116",
-                "md5":"ebd0a2fbeff04a2a36ad9d219c054a91",
-                "package_size":"10877004678"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Japanese_3.5.0.zip",
+                "size":"23289208506",
+                "md5":"0db0c92557bf4601bc93e564a22fa38f",
+                "package_size":"11639361373"
             },
             {
                 "language":"ko-kr",
                 "name":"",
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Korean_3.4.0.zip",
-                "size":"16674958870",
-                "md5":"c93a3cd67024cdc061b87a8c4d5636e6",
-                "package_size":"8332236555"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/Audio_Korean_3.5.0.zip",
+                "size":"17727225856",
+                "md5":"a333211d84effc592f34f81335265555",
+                "package_size":"8858370048"
             }
         ],
-        "decompressed_path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/ScatteredFiles",
+        "decompressed_path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/ScatteredFiles",
         "segments":[
             {
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.001",
-                "md5":"c6dffa721b9610a84652258b66402475"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.001",
+                "md5":"0698a108cc1e2e6499b7332413ef8e4d"
             },
             {
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.002",
-                "md5":"fbd1f0dfac83ca48fda7cf49ccb40052"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.002",
+                "md5":"d57010e12344277390536de067e10caf"
             },
             {
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.003",
-                "md5":"157aced7e87c852a5af4fc617fd85f55"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.003",
+                "md5":"540e2a579f5fb66ec98a2b98db752065"
             },
             {
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.004",
-                "md5":"22a2d144a7cc4af59aa401f3c0eff733"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.004",
+                "md5":"dce694e4057b5857c8f2b0d30c4d8b58"
             },
             {
-                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.005",
-                "md5":"10129a5815eadf8a4571b8652c51c092"
+                "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230220120841_NrIMna0roQkFHA3c/YuanShen_3.5.0.zip.005",
+                "md5":"d8383a9a7ca41c6ce32dc74fa6e7a13f"
             }
         ],
-        "package_size":"47899622769"
+        "package_size":"47953309860"
     },
     "deprecated_packages":[
         {
@@ -1014,6 +859,72 @@
                 }
             ],
             "package_size":"45634027520"
+        },
+        {
+            "name":"",
+            "version":"3.4.0",
+            "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip",
+            "size":"95809731298",
+            "md5":"a04c6e422656a44924bad95f8648cf9e",
+            "entry":"YuanShen.exe",
+            "voice_packs":[
+                {
+                    "language":"zh-cn",
+                    "name":"",
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Chinese_3.4.0.zip",
+                    "size":"16997081416",
+                    "md5":"56dce864d6eb4780fd2f055263b1ca39",
+                    "package_size":"8493297828"
+                },
+                {
+                    "language":"en-us",
+                    "name":"",
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_English(US)_3.4.0.zip",
+                    "size":"19423737938",
+                    "md5":"06ca7f33819fbe54f84a3327a927e92d",
+                    "package_size":"9706626089"
+                },
+                {
+                    "language":"ja-jp",
+                    "name":"",
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Japanese_3.4.0.zip",
+                    "size":"21764495116",
+                    "md5":"ebd0a2fbeff04a2a36ad9d219c054a91",
+                    "package_size":"10877004678"
+                },
+                {
+                    "language":"ko-kr",
+                    "name":"",
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/Audio_Korean_3.4.0.zip",
+                    "size":"16674958870",
+                    "md5":"c93a3cd67024cdc061b87a8c4d5636e6",
+                    "package_size":"8332236555"
+                }
+            ],
+            "decompressed_path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/ScatteredFiles",
+            "segments":[
+                {
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.001",
+                    "md5":"c6dffa721b9610a84652258b66402475"
+                },
+                {
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.002",
+                    "md5":"fbd1f0dfac83ca48fda7cf49ccb40052"
+                },
+                {
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.003",
+                    "md5":"157aced7e87c852a5af4fc617fd85f55"
+                },
+                {
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.004",
+                    "md5":"22a2d144a7cc4af59aa401f3c0eff733"
+                },
+                {
+                    "path":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20230109134623_pLhUB4LFubdudxQa/YuanShen_3.4.0.zip.005",
+                    "md5":"10129a5815eadf8a4571b8652c51c092"
+                }
+            ],
+            "package_size":"47899622769"
         }
     ]
 }
