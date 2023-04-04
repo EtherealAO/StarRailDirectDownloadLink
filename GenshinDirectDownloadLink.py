@@ -60,7 +60,7 @@ def get_genshin_json():
 if __name__ == '__main__':
     try:
         t = threading.Thread(target=get_genshin_json)
-        t.setDaemon(True)
+        t.daemon = True
         t.start()
         t.join(timeout=300)
     except:
