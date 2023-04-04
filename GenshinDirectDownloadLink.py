@@ -3,6 +3,7 @@
 import collections
 import json
 import requests
+import threading
 import traceback
 
 
@@ -58,6 +59,9 @@ def get_genshin_json():
 
 if __name__ == '__main__':
     try:
-        get_genshin_json()
+        t = threading.Thread(target=get_genshin_json)
+        t.setDaemon(True)
+        t.start()
+        t.join(timeout=300)
     except:
         print(traceback.format_exc())
