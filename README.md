@@ -1,52 +1,17 @@
 ```
 {
-    "pre_download_game":{
-        "latest":{
-            "name":"",
-            "version":"1.3.0",
-            "path":"https://autopatchcn.bhsr.com/client/cn/20230818153431_sMKzYZ9EOeT15oNn/StarRail_1.3.0.zip",
-            "size":"32588095296",
-            "md5":"5d8ee4d628842e963c9151228def7823",
-            "entry":"StarRail.exe",
-            "voice_packs":[],
-            "decompressed_path":"",
-            "segments":[],
-            "package_size":"16288804768"
-        },
-        "diffs":[
-            {
-                "name":"game_1.2.0_1.3.0_hdiff_br8KoHI2R35fWvmj.zip",
-                "version":"1.2.0",
-                "path":"https://autopatchcn.bhsr.com/client/hkrpg_cn/33/game_1.2.0_1.3.0_hdiff_br8KoHI2R35fWvmj.zip",
-                "size":"22020116452",
-                "md5":"835C976023585FED443A93CCE42934E5",
-                "is_recommended_update":false,
-                "voice_packs":[],
-                "package_size":"10326195428"
-            },
-            {
-                "name":"game_1.1.0_1.3.0_hdiff_pQl5t1UHPa8jBsTc.zip",
-                "version":"1.1.0",
-                "path":"https://autopatchcn.bhsr.com/client/hkrpg_cn/33/game_1.1.0_1.3.0_hdiff_pQl5t1UHPa8jBsTc.zip",
-                "size":"29708871005",
-                "md5":"887A7EC03E8D005594794B78F86DEA33",
-                "is_recommended_update":false,
-                "voice_packs":[],
-                "package_size":"14081793799"
-            }
-        ]
-    },
+    "pre_download_game":null,
     "latest":{
         "name":"",
-        "version":"1.2.0",
-        "path":"https://autopatchcn.bhsr.com/client/cn/20230709224719_3CcrEpEKT9iaObJh/StarRail_1.2.0.zip",
-        "size":"30213501664",
-        "md5":"db3ed7b4b6d328d8394e1fa27391ee3f",
+        "version":"1.3.0",
+        "path":"https://autopatchcn.bhsr.com/client/cn/20230818153431_sMKzYZ9EOeT15oNn/StarRail_1.3.0.zip",
+        "size":"32588095296",
+        "md5":"5d8ee4d628842e963c9151228def7823",
         "entry":"StarRail.exe",
         "voice_packs":[],
         "decompressed_path":"",
         "segments":[],
-        "package_size":"15101507952"
+        "package_size":"16288804768"
     },
     "deprecated_packages":[
         "",
@@ -73,6 +38,18 @@
             "decompressed_path":"",
             "segments":[],
             "package_size":"11054715824"
+        },
+        {
+            "name":"",
+            "version":"1.2.0",
+            "path":"https://autopatchcn.bhsr.com/client/cn/20230709224719_3CcrEpEKT9iaObJh/StarRail_1.2.0.zip",
+            "size":"30213501664",
+            "md5":"db3ed7b4b6d328d8394e1fa27391ee3f",
+            "entry":"StarRail.exe",
+            "voice_packs":[],
+            "decompressed_path":"",
+            "segments":[],
+            "package_size":"15101507952"
         }
     ]
 }
